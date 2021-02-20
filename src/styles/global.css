@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background-color: #292929;
+  
+  font: 500 16px Nunito, sans-serif;
+  color: snow;
+}

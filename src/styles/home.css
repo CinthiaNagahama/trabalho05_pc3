@@ -1,0 +1,47 @@
+.title-trabalho{
+  margin: 5% 0;
+
+  display: flexbox;
+}
+
+h1, h2, h3{
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  font: 400 4rem Roboto Slab, sans-serif;
+  word-spacing: 0.8rem;
+}
+
+h2{
+  font: 400 2rem Roboto Slab, sans-serif;
+  word-spacing: 0.8rem;
+}
+
+h3{
+  font: 400 1.5rem Roboto Slab, sans-serif;
+}
+
+#git, a{
+  background-color: transparent;
+}
+
+a{
+  font: 400 1.2rem Roboto, sans-serif;
+  margin-left: 0.5rem;
+}
+
+.questions-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  grid-auto-rows: minmax(70vh, auto);
+  gap: 30px 20px;
+  
+}
+
+.footer{
+  
+  margin-top: 20vh;
+  height: 30vh;
+}

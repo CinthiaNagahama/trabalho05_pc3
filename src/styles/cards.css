@@ -1,0 +1,114 @@
+.card{
+  margin: 2vw 2vw;
+
+  border-radius: 5px;
+  border: snow solid 2px;
+
+  background-color: rgb(143, 121, 79);
+}
+
+fieldset{
+  border: none;
+}
+
+.question-title{
+  margin: none;
+  padding: 2vh;
+  max-height: 15%;
+  border-bottom: snow solid 1px;
+
+  background-color: rgb(143, 121, 79);
+}
+
+.question-container{
+  padding: 2vh 2vh;
+  max-height: 85%;
+
+  background-color: rgb(143, 121, 79);
+}
+
+p, span, .card-button-container, .card-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(143, 121, 79);
+}
+
+p, span, label{
+  font: 400 1.5rem Roboto, sans-serif;
+}
+
+p{
+  padding: 0 1vw;
+}
+
+.card-button-container{
+  padding: 5vh;
+} 
+
+.card-command{
+  padding: 2vh;
+}
+
+.secret-card-command{
+  padding: 1vh;
+  font-size: 1.2rem;
+}
+
+.multiple{
+  margin: 0 1vw;
+
+  background-color: rgb(143, 121, 79);
+}
+
+.matrix-result{
+  margin-bottom: 2vh;
+}
+
+.card-button{
+  height: 5vh;
+  width: 12vh;
+
+  border: 1px solid white;
+  border-radius: 10px;
+
+  font: 400 1rem Roboto, sans-serif;
+}
+
+.card-inputs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(143, 121, 79);
+}
+
+input{
+  width: 5vw;
+  margin: 1vh 2vh;
+  padding: 1vh;
+  color: rgb(143, 121, 79);
+
+  border: none;
+  border-radius: 5px;
+  background-color: snow;
+
+  font: 400 1rem Roboto, sans-serif;
+
+  text-align: center;
+}
+
+.matrix{
+  margin: 0 1vw;
+  border: snow solid 1px;
+  border-radius: 5px;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: rgb(143, 121, 79);
+}
