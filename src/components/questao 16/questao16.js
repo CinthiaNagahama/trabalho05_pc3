@@ -4,5 +4,5 @@ export function powerStepsWithPow(base, pow){
     partial = Math.pow(base, i);
     res.push(partial);
   }
-  return alert(res);
+  return res;
 }

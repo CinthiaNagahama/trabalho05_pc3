@@ -6,13 +6,9 @@ export default function Ex16(){
   const [base, setBase] = useState(1);
   const [pow, setPow] = useState(0);
   const [res, setRes] = useState(1);
+
   const handleQuestao = _ => {
-    let temp = powerStepsWithPow(base, pow);
-    if(isNaN(temp)){
-      alert("Valores dados não são números");
-    } else {
-      setRes(temp);
-    }
+    setRes(powerStepsWithPow(base, pow));
   }
 
   return(
@@ -24,14 +20,14 @@ export default function Ex16(){
       <div className="card-inputs">
         <p className="card-command">Insira a base</p>
         <input 
-          type="text"
+          type="number"
           onChange={event => {setBase(event.target.value)}}
         />
       </div>
       <div className="card-inputs">
         <p className="card-command">Insira o expoente</p>         
         <input 
-            type="text"
+            type="number"
             onChange={event => {setPow(event.target.value)}}
         />
       </div>

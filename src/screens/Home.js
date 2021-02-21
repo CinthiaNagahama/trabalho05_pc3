@@ -58,7 +58,7 @@ export default function Home(){
         <h2>Cinthia Mie N. Ungefehr</h2>
         <p id="git">Cheque o código no meu 
           <a 
-            href="https://github.com/CinthiaNagahama/trabalho05_pc3"
+            href="https://github.com/CinthiaNagahama/programacao_de_computadores_3/tree/main/Trabalho05/src"
             target="blank"
           > Git Hub</a>
         </p>

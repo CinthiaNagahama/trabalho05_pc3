@@ -23,21 +23,21 @@ export default function Ex06(){
       <div className="card-inputs">
         <p className="card-command">Insira seu peso em kg:</p>
         <input 
-          type="text" 
+          type="number" 
           onChange={event => {setPeso(event.target.value)}}
         />
       </div>
       <div className="card-inputs">
         <p className="card-command">Insira sua altura em metros:</p>
         <input 
-          type="text" 
+          type="number" 
           onChange={event => {setAltura(event.target.value)}}
         />
       </div>
       <div className="card-button-container">
-        <div className="card-button" onClick={() => handleQuestao()}>
+        <button className="card-button" type="button" onClick={() => handleQuestao()}>
           <span>Enviar</span>  
-        </div>
+        </button>
       </div>
       <div>
         <p>seu IMC é {imc}</p>

@@ -5,5 +5,5 @@ export function powerStepsWithWhile(base, pow){
     res.push(partial);
     i++;
   }
-  return alert(res);
+  return res;
 }

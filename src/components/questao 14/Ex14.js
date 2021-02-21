@@ -8,12 +8,7 @@ export default function Ex14(){
   const [res, setRes] = useState(1);
 
   const handleQuestao = _ => {
-    let temp = powerStepsWithWhile(base, pow);
-    if(isNaN(temp)){
-      alert("Valores dados não são números");
-    } else {
-      setRes(temp);
-    }
+    setRes(powerStepsWithWhile(base, pow).join(", "));
   }
 
   return(

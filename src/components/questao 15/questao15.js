@@ -4,5 +4,5 @@ export function powerStepsWithFor(base, pow){
     partial *= base;
     res.push(partial);
   }
-  return alert(res);
+  return res;
 }

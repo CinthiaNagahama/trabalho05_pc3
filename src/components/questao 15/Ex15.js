@@ -8,12 +8,7 @@ export default function Ex15(){
   const [res, setRes] = useState(1);
 
   const handleQuestao = _ => {
-    let temp = powerStepsWithFor(base, pow);
-    if(isNaN(temp)){
-      alert("Valores dados não são números");
-    } else {
-      setRes(temp);
-    }
+    setRes(powerStepsWithFor(base, pow).join(", "));
   }
 
   return(
@@ -25,14 +20,14 @@ export default function Ex15(){
       <div className="card-inputs">
         <p className="card-command">Insira a base</p>
         <input 
-          type="text"
+          type="number"
           onChange={event => {setBase(event.target.value)}}
         />
       </div>
       <div className="card-inputs">
         <p className="card-command">Insira o expoente</p>         
         <input 
-            type="text"
+            type="number"
             onChange={event => {setPow(event.target.value)}}
         />
       </div>
